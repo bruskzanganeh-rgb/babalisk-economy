@@ -1,0 +1,20 @@
+{
+    "_comment": "Edit this file with your actual holdings. Format: ticker (without .IS) -> number of shares",
+    "monthly_dca_try": 25000,
+    "holdings": {
+        "ARASE": {"shares": 194, "cost_total_try": 10507, "sector": "Energy"},
+        "ANSGR": {"shares": 1804, "cost_total_try": 33771, "sector": "Insurance"},
+        "TUPRS": {"shares": 282, "cost_total_try": 39644, "sector": "Petrochemicals"},
+        "AGESA": {"shares": 465, "cost_total_try": 19911, "sector": "Insurance"},
+        "DOAS": {"shares": 373, "cost_total_try": 73306, "sector": "Automotive"},
+        "GOLTS": {"shares": 272, "cost_total_try": 98502, "sector": "Cement"},
+        "TAVHL": {"shares": 2482, "cost_total_try": 560063, "sector": "Aviation"},
+        "CCOLA": {"shares": 13790, "cost_total_try": 669505, "sector": "Beverages"},
+        "AEFES": {"shares": 57063, "cost_total_try": 1072784, "sector": "Beverages"},
+        "RYSAS": {"shares": 128555, "cost_total_try": 1680214, "sector": "Logistics"},
+        "RYGYO": {"shares": 66960, "cost_total_try": 933422, "sector": "REIT"},
+        "GMTAS": {"shares": 554, "cost_total_try": 24021, "sector": "REIT"},
+        "TRGYO": {"shares": 297, "cost_total_try": 21913, "sector": "REIT"},
+        "TABGD": {"shares": 197, "cost_total_try": 44321, "sector": "Food"}
+    }
+}

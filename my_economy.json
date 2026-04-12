@@ -1,0 +1,564 @@
+{
+  "monthly_dca_try": 25000,
+  "stocks": {
+    "ARASE": {
+      "shares": 194,
+      "cost": 10507
+    },
+    "ANSGR": {
+      "shares": 1804,
+      "cost": 33771
+    },
+    "TUPRS": {
+      "shares": 282,
+      "cost": 39644
+    },
+    "AGESA": {
+      "shares": 465,
+      "cost": 19911
+    },
+    "DOAS": {
+      "shares": 373,
+      "cost": 73306
+    },
+    "TTRAK": {
+      "shares": 0,
+      "cost": 0
+    },
+    "GOLTS": {
+      "shares": 272,
+      "cost": 98502
+    },
+    "TAVHL": {
+      "shares": 2482,
+      "cost": 560063
+    },
+    "CCOLA": {
+      "shares": 13790,
+      "cost": 669505
+    },
+    "AEFES": {
+      "shares": 57063,
+      "cost": 1072784
+    },
+    "RYSAS": {
+      "shares": 128555,
+      "cost": 1680214
+    },
+    "RYGYO": {
+      "shares": 66960,
+      "cost": 933422
+    },
+    "GMTAS": {
+      "shares": 554,
+      "cost": 24021
+    },
+    "TRGYO": {
+      "shares": 297,
+      "cost": 21913
+    },
+    "TABGD": {
+      "shares": 197,
+      "cost": 44321
+    }
+  },
+  "real_estate": [
+    {
+      "name": "A-Plus 2+1 25e/mån",
+      "value_try": 3800000
+    },
+    {
+      "name": "Ymsenvågen 8",
+      "value_sek": 4420000
+    }
+  ],
+  "bank_accounts": [
+    {
+      "name": "Montrose",
+      "sek": 145000
+    },
+    {
+      "name": "Avanza",
+      "sek": 1145000
+    },
+    {
+      "name": "BABALISK AB",
+      "sek": 150000
+    },
+    {
+      "name": "Nordnet",
+      "sek": 10500
+    }
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC-USD",
+      "amount": 0.049
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH-USD",
+      "amount": 0.008
+    }
+  ],
+  "cash": [
+    {
+      "name": "Ziraat Cash",
+      "try": 44000
+    }
+  ],
+  "gold": [
+    {
+      "name": "Gold Fysisk 7 gr",
+      "grams": 7.0
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Gustav Prager",
+      "sek": 8000
+    },
+    {
+      "name": "A E Prager",
+      "sek": 12000
+    },
+    {
+      "name": "Emile Augusta Ouchard",
+      "usd": 27000
+    },
+    {
+      "name": "P Westerlund",
+      "sek": 160000
+    },
+    {
+      "name": "Pfretzschner Ellen",
+      "sek": 15000
+    },
+    {
+      "name": "China Viola",
+      "sek": 5000
+    },
+    {
+      "name": "Marc Laberte Bow",
+      "sek": 20000
+    },
+    {
+      "name": "Saz",
+      "sek": 5000
+    },
+    {
+      "name": "Longines",
+      "sek": 20000
+    },
+    {
+      "name": "Sonotronics Apollo",
+      "sek": 15000
+    },
+    {
+      "name": "Golf",
+      "sek": 40000
+    }
+  ],
+  "loans": [
+    {
+      "name": "Bostadslån 1",
+      "amount": 1060742,
+      "rate": 0.027,
+      "property": "Ymsenvågen 8"
+    },
+    {
+      "name": "Bostadslån 2",
+      "amount": 999058,
+      "rate": 0.0133,
+      "property": "Ymsenvågen 8"
+    },
+    {
+      "name": "Bostadslån 3",
+      "amount": 424282,
+      "rate": 0.0225,
+      "property": "Ymsenvågen 8"
+    },
+    {
+      "name": "Bostadslån 4",
+      "amount": 314420,
+      "rate": 0.0412,
+      "property": "Ymsenvågen 8"
+    }
+  ],
+  "credits": [
+    {
+      "name": "Privatlån 7.45%",
+      "amount": 36962,
+      "rate": 0.0745
+    },
+    {
+      "name": "CSN Lån",
+      "amount": 176019,
+      "rate": 0.006
+    }
+  ],
+  "budget": {
+    "income": [
+      {
+        "name": "Lön eft. skatt",
+        "sek": 20000
+      },
+      {
+        "name": "A plus 2+1",
+        "sek": 5000
+      }
+    ],
+    "expenses": [
+      {
+        "name": "Bostadsavgift",
+        "sek": 2948
+      },
+      {
+        "name": "Amortering",
+        "sek": 5160
+      },
+      {
+        "name": "Räntekostnader",
+        "sek": 5639
+      },
+      {
+        "name": "Avanza",
+        "sek": 2500
+      },
+      {
+        "name": "Mat",
+        "sek": 7000
+      },
+      {
+        "name": "Bensin",
+        "sek": 1500
+      },
+      {
+        "name": "Bilförsäkring",
+        "sek": 500
+      },
+      {
+        "name": "Parkering",
+        "sek": 500
+      },
+      {
+        "name": "Hemförsäkring",
+        "sek": 170
+      },
+      {
+        "name": "SL kort",
+        "sek": 1070
+      },
+      {
+        "name": "CSN",
+        "sek": 1100
+      },
+      {
+        "name": "Nöjen",
+        "sek": 3000
+      }
+    ]
+  },
+  "forecast": {
+    "annual_growth_pct": 18.5,
+    "monthly_savings_override": 0
+  },
+  "networth_history": [
+    {
+      "date": "2021-04-01",
+      "assets": 5784000,
+      "debts": 3541000
+    },
+    {
+      "date": "2022-01-01",
+      "assets": 5633846,
+      "debts": 3524767
+    },
+    {
+      "date": "2022-02-01",
+      "assets": 5607387,
+      "debts": 3477367
+    },
+    {
+      "date": "2022-03-01",
+      "assets": 5705128,
+      "debts": 3394083
+    },
+    {
+      "date": "2022-04-01",
+      "assets": 5874924,
+      "debts": 3388240
+    },
+    {
+      "date": "2022-05-01",
+      "assets": 6126637,
+      "debts": 3378634
+    },
+    {
+      "date": "2022-06-01",
+      "assets": 6351450,
+      "debts": 3369787
+    },
+    {
+      "date": "2022-07-01",
+      "assets": 6494301,
+      "debts": 3360158
+    },
+    {
+      "date": "2022-08-01",
+      "assets": 6203620,
+      "debts": 3354315
+    },
+    {
+      "date": "2022-09-01",
+      "assets": 6145573,
+      "debts": 3345478
+    },
+    {
+      "date": "2022-10-01",
+      "assets": 6158783,
+      "debts": 3339669
+    },
+    {
+      "date": "2022-11-01",
+      "assets": 6118547,
+      "debts": 3333942
+    },
+    {
+      "date": "2022-12-01",
+      "assets": 6100037,
+      "debts": 3324919
+    },
+    {
+      "date": "2023-01-01",
+      "assets": 6099010,
+      "debts": 3318851
+    },
+    {
+      "date": "2023-02-01",
+      "assets": 6349698,
+      "debts": 3312636
+    },
+    {
+      "date": "2023-03-01",
+      "assets": 6027866,
+      "debts": 3282663
+    },
+    {
+      "date": "2023-04-01",
+      "assets": 6269932,
+      "debts": 3271815
+    },
+    {
+      "date": "2023-05-01",
+      "assets": 5807085,
+      "debts": 3254871
+    },
+    {
+      "date": "2023-06-01",
+      "assets": 5813089,
+      "debts": 3247949
+    },
+    {
+      "date": "2023-07-01",
+      "assets": 5813089,
+      "debts": 3247949
+    },
+    {
+      "date": "2023-08-01",
+      "assets": 6304592,
+      "debts": 3242003
+    },
+    {
+      "date": "2023-09-01",
+      "assets": 6500482,
+      "debts": 3417125
+    },
+    {
+      "date": "2023-10-01",
+      "assets": 6462543,
+      "debts": 3402175
+    },
+    {
+      "date": "2023-11-01",
+      "assets": 6426514,
+      "debts": 3388522
+    },
+    {
+      "date": "2023-12-01",
+      "assets": 6281983,
+      "debts": 3374234
+    },
+    {
+      "date": "2024-01-01",
+      "assets": 6264424,
+      "debts": 3357197
+    },
+    {
+      "date": "2024-02-01",
+      "assets": 6319800,
+      "debts": 3343703
+    },
+    {
+      "date": "2024-03-01",
+      "assets": 6412220,
+      "debts": 3325839
+    },
+    {
+      "date": "2024-04-01",
+      "assets": 6528247,
+      "debts": 3311529
+    },
+    {
+      "date": "2024-05-01",
+      "assets": 7001757,
+      "debts": 3397216
+    },
+    {
+      "date": "2024-06-01",
+      "assets": 7117057,
+      "debts": 3373165
+    },
+    {
+      "date": "2024-07-01",
+      "assets": 7113463,
+      "debts": 3358905
+    },
+    {
+      "date": "2024-08-01",
+      "assets": 7209435,
+      "debts": 3360428
+    },
+    {
+      "date": "2024-09-01",
+      "assets": 6980799,
+      "debts": 3234416
+    },
+    {
+      "date": "2024-10-01",
+      "assets": 7000263,
+      "debts": 3220071
+    },
+    {
+      "date": "2024-11-01",
+      "assets": 7522136,
+      "debts": 3206577
+    },
+    {
+      "date": "2024-12-01",
+      "assets": 7866277,
+      "debts": 3197427
+    },
+    {
+      "date": "2025-01-01",
+      "assets": 7972338,
+      "debts": 3180350
+    },
+    {
+      "date": "2025-02-01",
+      "assets": 8096994,
+      "debts": 3160804
+    },
+    {
+      "date": "2025-03-01",
+      "assets": 8001753,
+      "debts": 3145445
+    },
+    {
+      "date": "2025-04-01",
+      "assets": 7772468,
+      "debts": 3128705
+    },
+    {
+      "date": "2025-11-01",
+      "assets": 7778826,
+      "debts": 2963298
+    },
+    {
+      "date": "2026-04-05",
+      "assets": 8290011,
+      "debts": 3011483,
+      "stocks_sek": 1620940,
+      "re_total": 5167950,
+      "bank_total": 1450500,
+      "crypto_sek": 31235,
+      "gold_sek": 10032,
+      "cash_sek": 9355,
+      "items": {
+        "bank:Montrose": 145000,
+        "bank:Avanza": 1145000,
+        "bank:BABALISK AB": 150000,
+        "bank:Nordnet": 10500,
+        "stock:RYSAS": 505663,
+        "stock:RYGYO": 432233,
+        "stock:AEFES": 212321,
+        "stock:CCOLA": 194979,
+        "stock:TAVHL": 169134,
+        "stock:GOLTS": 21571,
+        "stock:AGESA": 21444,
+        "stock:DOAS": 15362,
+        "stock:TUPRS": 15304,
+        "stock:TABGD": 10203,
+        "stock:ANSGR": 9980,
+        "stock:TRGYO": 5614,
+        "stock:ARASE": 3865,
+        "stock:GMTAS": 3265,
+        "stock:TTRAK": 0,
+        "re:A-Plus 2+1 25e/mån": 807950,
+        "re:Ymsenvågen 8": 4360000,
+        "crypto:Bitcoin": 31080,
+        "crypto:Ethereum": 155,
+        "loan:Bostadslån 1": -1060742,
+        "loan:Bostadslån 2": -999058,
+        "loan:Bostadslån 3": -424282,
+        "loan:Bostadslån 4": -314420,
+        "credit:Privatlån 7.45%": -36962,
+        "credit:CSN Lån": -176019
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "assets": 8437245,
+      "debts": 3011483,
+      "stocks_sek": 1724469,
+      "re_total": 5210732,
+      "bank_total": 1450500,
+      "crypto_sek": 32419,
+      "gold_sek": 9969,
+      "cash_sek": 9156,
+      "items": {
+        "bank:Montrose": 145000,
+        "bank:Avanza": 1145000,
+        "bank:BABALISK AB": 150000,
+        "bank:Nordnet": 10500,
+        "stock:RYSAS": 577279,
+        "stock:RYGYO": 450889,
+        "stock:AEFES": 208390,
+        "stock:CCOLA": 203736,
+        "stock:TAVHL": 177667,
+        "stock:AGESA": 22178,
+        "stock:GOLTS": 21239,
+        "stock:DOAS": 15345,
+        "stock:TUPRS": 14788,
+        "stock:TABGD": 10019,
+        "stock:ANSGR": 9993,
+        "stock:TRGYO": 5494,
+        "stock:ARASE": 4122,
+        "stock:GMTAS": 3332,
+        "stock:TTRAK": 0,
+        "re:A-Plus 2+1 25e/mån": 790732,
+        "re:Ymsenvågen 8": 4420000,
+        "crypto:Bitcoin": 32255,
+        "crypto:Ethereum": 164,
+        "loan:Bostadslån 1": -1060742,
+        "loan:Bostadslån 2": -999058,
+        "loan:Bostadslån 3": -424282,
+        "loan:Bostadslån 4": -314420,
+        "credit:Privatlån 7.45%": -36962,
+        "credit:CSN Lån": -176019
+      }
+    }
+  ],
+  "last_edit": "2026-04-08"
+}
