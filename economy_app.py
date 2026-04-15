@@ -1414,8 +1414,19 @@ def index():
         _cache['last_fetch'] = 0
         refresh_data()  # force = synchronous wait
     elif _cache['last_fetch'] == 0:
-        # No data at all — must wait for first fetch
-        refresh_data()
+        # No data yet — start background fetch and show loading page
+        _background_refresh()
+        return '''<!DOCTYPE html><html><head><meta charset="utf-8">
+        <title>Babalisk Economy — Loading</title>
+        <meta http-equiv="refresh" content="5">
+        <style>body{background:#0a0a0a;color:#e0e0e0;font-family:system-ui;
+        display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
+        .box{text-align:center}.spinner{width:50px;height:50px;border:4px solid #333;
+        border-top:4px solid #00d4aa;border-radius:50%;animation:spin 1s linear infinite;
+        margin:0 auto 20px}@keyframes spin{to{transform:rotate(360deg)}}</style></head>
+        <body><div class="box"><div class="spinner"></div>
+        <h2>Babalisk Economy</h2><p>Hämtar marknadsdata... sidan laddas om automatiskt.</p>
+        </div></body></html>'''
     elif time.time() - _cache['last_fetch'] > CACHE_DURATION:
         # Stale data — serve old data immediately, refresh in background
         _background_refresh()
